@@ -1,0 +1,12 @@
+# MR kreisais plecs 19.10.2026 (anonimizēts)
+
+Pirmreizēja traumatiska mugurēja glenohumerāla subluksācija, 18 g. kalnu slēpotājs.
+
+- [MR slēdziens EN+LV](docs/sledziens.md)
+- [Saite un fizioterapija 1.-3. nedēļā (kopsavilkums ārstam un fizioterapeitam)](docs/plans.md)
+- [Padziļinātā izpēte: klasifikācija, risks, atgriešanās sportā](docs/izpete-trauma.md)
+- [Padziļinātā izpēte: saite un rokas pozīcija](docs/izpete-saite.md)
+- [Atgriešanās sportā pēc MR (literatūras kopsavilkums)](docs/atgriesanas.md)
+- [Materiālu saraksts](materiali.html)
+- [Anonimizēti DICOM](MR_plecs_DICOM_anonimizets.zip)
+- Attēli: atteli/ (iezīmētie + visi slāņi JPG)
