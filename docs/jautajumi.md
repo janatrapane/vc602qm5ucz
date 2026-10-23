@@ -2,7 +2,7 @@
 
 **Dr. Andrejs Finogejevs, 24.10.2026, 10:30 (VC4).** Pēc tam Rūdolfs 12:00. Kontrole: Dr. Radziņš 02.11.
 
-**Īsumā:** 18.10. slaloma treniņā pirmreizēja traumatiska **mugurēja** subluksācija, kas reponējās pati pēc dažām minūtēm. MR 19.10.: mugurējās lūpas kontūzija bez plīsuma un kaula sasitums 1,5 x 1,0 cm galviņas priekšpusē bez iespieduma. Somijas ārsts pirms MR nozīmēja saiti uz 3 nedēļām un 6 nedēļas bez rotācijas uz āru. **Mērķis: 08.11. ceļš uz nometni, 09.11. slēpošana.**
+**Īsumā:** 18.10. slaloma treniņā pirmreizēja traumatiska **mugurēja** subluksācija, kas reponējās pati pēc dažām minūtēm. MR 19.10.: mugurējās lūpas kontūzija bez plīsuma un kaula sasitums 1,5 x 1,0 cm galviņas priekšpusē bez iespieduma. **Notikums (no paša stāsta):** plecs iegāja vietā **pats ~1 minūtes laikā, bez manevra**, tobrīd nesāpēja, sāpes sākās nākamajā dienā. **Šajā minūtē nejuta roku un pirkstus.** Somijas izrakstā nervu stāvoklis nav dokumentēts. Somijas ārsts pirms MR nozīmēja saiti uz 3 nedēļām un 6 nedēļas bez rotācijas uz āru. **Mērķis: 08.11. ceļš uz nometni, 09.11. slēpošana.**
 
 Materiāli (MR skatītājs, slēdziens, attēli, DICOM): **janatrapane.github.io/vc602qm5ucz**
 
@@ -10,10 +10,11 @@ Materiāli (MR skatītājs, slēdziens, attēli, DICOM): **janatrapane.github.io
 
 | # | Jautājums | Atbilde |
 |---|---|---|
-| 1 | **A1 vai A2?** Subluksācija vai izmežģījums? Plecs iegāja vietā pats, bet pēc dažām minūtēm | |
+| 1 | **A1 vai A2?** Iegāja vietā pats ~1 min laikā bez manevra, MR bez iespieduma. Mums šķiet A1. Piekrītat? | |
 | 2 | **Saite:** vai vajadzīga, vai tikai komfortam? Cik ilgi? Ja vajadzīga, vai neitrālas rotācijas ortoze, nevis saite ar roku uz vēdera? | |
 | 3 | **Vai "6 nedēļas bez rotācijas uz āru" ir spēkā** mugurējai subluksācijai? No kurām pozīcijām tiešām jāizvairās? | |
-| 4 | **Klīniskie testi šodien** (Jerk, Kim, load-and-shift, apprehension, paduses nervs): kādi rezultāti? | |
+| 4 | **Nervi:** subluksācijas brīdī ~1 min **nejuta roku un pirkstus**. Lūdzu pārbaudīt jutīgumu un spēku (paduses nervs, pleca ārpuse). Vai vajag EMG? | |
+| 4b | **Klīniskie testi šodien** (Jerk, Kim, load-and-shift, apprehension): kādi rezultāti? | |
 | 5 | **Plāns 09.11.:** vai piekrītat kritērijos balstītam plānam? Ko fizioterapija drīkst no šodienas? | |
 
 ## Attēli un riski
