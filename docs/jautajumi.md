@@ -2,7 +2,7 @@
 
 **Dr. Andrejs Finogejevs, 24.10.2026, 10:30 (VC4).** Pēc tam Rūdolfs 12:00. Kontrole: Dr. Radziņš 02.11.
 
-**Īsumā:** 18.10. slaloma treniņā pirmreizēja traumatiska **mugurēja** subluksācija, kas reponējās pati pēc dažām minūtēm. MR 19.10.: mugurējās lūpas kontūzija bez plīsuma un kaula sasitums 1,5 x 1,0 cm galviņas priekšpusē bez iespieduma. **Notikums (no paša stāsta):** plecs iegāja vietā **pats ~1 minūtes laikā, bez manevra**, tobrīd nesāpēja, sāpes sākās nākamajā dienā. **Šajā minūtē nejuta roku un pirkstus.** Somijas izrakstā nervu stāvoklis nav dokumentēts. Somijas ārsts pirms MR nozīmēja saiti uz 3 nedēļām un 6 nedēļas bez rotācijas uz āru. **Mērķis: 08.11. ceļš uz nometni, 09.11. slēpošana.**
+**Īsumā:** 18.10. slaloma treniņā pirmreizēja traumatiska **mugurēja** subluksācija, kas reponējās pati ~1 minūtes laikā. MR 19.10.: mugurējās lūpas kontūzija bez plīsuma un kaula sasitums 1,5 x 1,0 cm galviņas priekšpusē bez iespieduma. **Notikums (no paša stāsta):** plecs iegāja vietā **pats ~1 minūtes laikā, bez manevra**, tobrīd nesāpēja, sāpes sākās nākamajā dienā. **Šajā minūtē nejuta roku un pirkstus.** Somijas izrakstā nervu stāvoklis nav dokumentēts. Somijas ārsts pirms MR nozīmēja saiti uz 3 nedēļām un 6 nedēļas bez rotācijas uz āru. **Mērķis: 08.11. ceļš uz nometni, 09.11. slēpošana.**
 
 Materiāli (MR skatītājs, slēdziens, attēli, DICOM): **janatrapane.github.io/vc602qm5ucz**
 
