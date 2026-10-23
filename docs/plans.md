@@ -74,6 +74,19 @@ Pēc vadlīnijām rehabilitācija sākas uzreiz, nevis pēc saites perioda [P, O
 | Pliometrikas sākums, ja nav sāpju un bailes: abu roku metiens no krūtīm ar vieglu bumbu | |
 | Slēpošanai specifiskā kustība: nūjas iespraušana bez slodzes, slēpotāja stāja | |
 | **Mērījumi 03.11. un 05./06.11.** | Spēks rotācijā uz āru un iekšu un abdukcijā pret labo roku (dinamometrs), CKCUEST, SIRSI. Jerk, Kim un load-and-shift testus veic ārsts vai fizioterapeits |
+| **NMES** (muskuļu elektrostimulācija) ārējiem rotatoriem un lāpstiņas tuvinātājiem **vingrojot** | Vienīgā jaunā metode ar RCT: Moroder 2023, 6 nedēļas, ~3 reizes nedēļā, 35 Hz, WOSI 64 % pret 51 % [P]. Pārbaudīta netraumatiskai nestabilitātei, N. gadījumā tas ir [S]. Jāpajautā Rūdolfam, vai viņam ir aparāts |
+
+**Testu sliekšņi [P, pēcoperācijas protokols Goldenberg 2021; S, pārnests]:**
+
+| Tests | Slieksnis |
+|---|---|
+| CKCUEST | >21 pieskāriens 15 s |
+| Vienas rokas grūšana ar 6 lb (~2,7 kg) bumbu | >90 % no labās rokas |
+| Y-Balance (rokām) | >90 % no labās rokas |
+| Bumbas atsitieni pret sienu 60 s (2 lb) | bez sāpēm, bez spēka zuduma |
+| SI-RSI (psiholoģiskā gatavība) | >55 [P, pārskats 2025; slieksnis nav vispārpieņemts] |
+
+Starptautiskā ekspertu vienošanās (Delphi, *Arthroscopy* 2024/2025): atgriešanās sportā notiek pēc kritērijiem, un **"minimālā laika punkta nav"** [E].
 
 **Kritēriji slēpošanai 09.11. [E/S]:** pilns kustību apjoms bez sāpēm, nav bailes, Jerk/Kim negatīvi, ārsta OK. **Milzu slaloma vārtiem** papildus spēks ≥90 % no labās rokas, CKCUEST bez sāpēm un pliometrika bez bailēm. Vienotu, pētījumos apstiprinātu robežvērtību nav. 90 % ir prakses vienošanās [P, pārskats 2024].
 
@@ -110,7 +123,7 @@ Pārbaudītu pētījumu šim sarakstam **nav**. Tā ir klīniskā loģika: nesti
 | BFR | [P] uzlabo fleksijas un iekšējās rotācijas spēku, **neuzlabo** ārējās rotācijas un abdukcijas spēku | Kājām. Kreisajai rokai mazāk noderīgs |
 | Labās rokas treniņš | [P] mazina spēka zudumu otrā rokā | Sākt uzreiz |
 | Olbaltumvielas 2,0-2,5 g/kg/d, 20-30 g 4-5 reizes | [P] | Uzreiz |
-| NMES | [P] tikai netraumatiskai nestabilitātei | Iespējams papildinājums |
+| NMES | [P] RCT 2023 tikai netraumatiskai nestabilitātei | Ieteicams papildinājums Rūdolfa nodarbībās |
 | Kinezioteips, ortoze uz sniega | [P] stabilitātes sajūta, ne objektīva stabilitāte | Pārliecībai |
 | Aukstums | [S] | Sāpes un tūska |
 
@@ -152,7 +165,11 @@ Pārbaudītu pētījumu šim sarakstam **nav**. Tā ir klīniskā loģika: nesti
 - OSU CPG 2020 (nestabila pleca neoperatīvā ārstēšana) - https://medicine.osu.edu/-/media/files/medicine/departments/sports-medicine/medical-professionals/shoulder-and-elbow/unstable-shoulder-non-surgical-management-2020.pdf
 - Smith et al. 2025 - https://pmc.ncbi.nlm.nih.gov/articles/PMC12325834/
 - Atgriešanās sportā mērījumi, pārskats 2024 - https://www.sciencedirect.com/science/article/pii/S2666061X24001056
+- Delphi vienošanās 2024/2025 - https://arthroscopyjournals.onlinelibrary.wiley.com/doi/10.1016/j.arthro.2024.04.034
+- Moroder 2023, NMES RCT - https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10824628/
+- Goldenberg 2021, IJSPT (testi) - https://ijspt.scholasticahq.com/article/22501-rehabilitation-following-posterior-shoulder-stabilization
+- Psiholoģiskā gatavība, JSES Int 2025 - https://pmc.ncbi.nlm.nih.gov/articles/PMC12490568/
 - BFR metaanalīze - https://pmc.ncbi.nlm.nih.gov/articles/PMC12729557/
 - Bedrin et al. 2022 / Mescher 2024 (riska faktori) - https://journals.sagepub.com/doi/10.1177/03635465241284647
 
-Pilnās izpētes: `reports/N. pleca trauma - padzilinata izpete 2026-10-23.md`, `reports/N. saite un rokas pozicija - izpete 2026-10-23.md`, `reports/N. atgriešanās sportā pēc MR.md`.
+Pilnās izpētes: `reports/Mugureja nestabilitate - jaunakie protokoli 2022-2026.md`, `reports/N. pleca trauma - padzilinata izpete 2026-10-23.md`, `reports/N. saite un rokas pozicija - izpete 2026-10-23.md`, `reports/N. atgriešanās sportā pēc MR.md`.
