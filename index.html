@@ -35,6 +35,10 @@ button.on{background:var(--acc);border-color:var(--acc);color:#fff}
 .nav{position:absolute;bottom:60px;width:58px;height:44px;font-size:20px;background:rgba(42,123,228,.8);border:0;color:#fff;border-radius:9px;z-index:2;padding:0}
 .nav.p{left:calc(50% - 64px)}.nav.n{left:calc(50% + 6px)}
 .load{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;color:var(--mut);pointer-events:none}
+#dl{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;z-index:11;padding:16px}
+#dl .box{background:var(--panel);border:1px solid var(--line);border-radius:12px;width:min(560px,100%);max-height:90vh;overflow:auto;padding:18px 20px}
+#dl h2{margin:0 0 10px;font-size:18px}#dl .it{display:block;padding:10px 12px;margin:6px 0;border:1px solid #343944;border-radius:9px;color:var(--txt);text-decoration:none;background:#1f232a}
+#dl .it:hover{background:#2a2f38}#dl .it span{display:block;color:var(--mut);font-size:13px}#dl .it.all{background:var(--acc);border-color:var(--acc)}#dl .it.all span{color:#e6efff}#dl p a{color:#8ab4ff}
 #help{position:fixed;inset:0;background:rgba(0,0,0,.7);display:none;align-items:center;justify-content:center;z-index:10;padding:16px}
 #help .box{background:var(--panel);border:1px solid var(--line);border-radius:12px;max-width:640px;max-height:90vh;overflow:auto;padding:18px 22px}
 #help h2{margin:0 0 8px;font-size:18px}#help li{margin:4px 0}#help kbd{background:#2b2f37;border-radius:4px;padding:1px 5px;font:12px ui-monospace,monospace}
@@ -81,12 +85,22 @@ button.on{background:var(--acc);border-color:var(--acc);color:#fff}
    <button id="clr" title="Dzēst šī slāņa mērījumus">Dzēst mērījumus</button>
    <button id="hbtn">? Palīdzība</button>
    <a href="materiali.html" style="text-decoration:none"><button>📄 Materiāli</button></a>
-   <a href="MR_plecs_viss.zip" download style="text-decoration:none"><button>⬇ Lejupielādēt</button></a>
+   <button id="dlbtn" class="on">⬇ Lejupielādēt</button>
   </div>
  </div>
  <div id="side"></div>
  <div id="views" class="l2"></div>
 </div>
+<div id="dl"><div class="box"><h2>Lejupielādēt</h2>
+<a class="it" href="docs/sledziens.pdf" download><b>📄 MR slēdziens</b><span>PDF · angļu oriģināls + latviešu tulkojums</span></a>
+<a class="it" href="MR_plecs_atteli.zip" download><b>🖼 Attēli</b><span>ZIP · iezīmētās atradnes + visi 111 slāņi JPG</span></a>
+<a class="it" href="MR_plecs_DICOM_anonimizets.zip" download><b>🩻 DICOM</b><span>ZIP · oriģinālie dati ārsta programmai/PACS (personas dati noņemti)</span></a>
+<a class="it" href="MR_plecs_skatitajs_bezsaiste.html" download><b>🖥 MR skatītājs bezsaistē</b><span>HTML · viens fails, atveras jebkurā pārlūkā bez interneta</span></a>
+<a class="it" href="docs/jautajumi.pdf" download><b>❓ Jautājumi ārstam un fizioterapeitam</b><span>PDF</span></a>
+<a class="it" href="docs/plans.pdf" download><b>📋 Plāns: saite un fizioterapija 1.-3. nedēļā</b><span>PDF</span></a>
+<a class="it all" href="MR_plecs_viss.zip" download><b>⬇ Visu kopā</b><span>ZIP · viss augstāk minētais</span></a>
+<p><a href="materiali.html">Visi materiāli un izpētes tīmeklī →</a></p>
+<button onclick="dl.style.display='none'">Aizvērt</button></div></div>
 <div id="help"><div class="box">
  <h2>Kā lietot</h2>
  <ul>
@@ -260,12 +274,13 @@ $('#reset').onclick=()=>{const v=vps[active];v.zoom=1;v.px=v.py=0;v.inv=false;v.
 $('#lay').onclick=()=>setLayout(layout===1?2:1);
 $('#refbtn').onclick=e=>{showRef=!showRef;e.target.classList.toggle('on',showRef);renderAll()};
 $('#clr').onclick=()=>{const v=vps[active];delete v.meas[v.k];renderAll()};
+const dl=$('#dl');$('#dlbtn').onclick=()=>dl.style.display='flex';dl.onclick=e=>{if(e.target===dl)dl.style.display='none'};
 const help=$('#help');$('#hbtn').onclick=()=>help.style.display='flex';help.onclick=e=>{if(e.target===help)help.style.display='none'};
 document.addEventListener('keydown',e=>{const v=vps[active];if(!v||e.target.tagName==='SELECT')return;
  if(e.key==='ArrowRight'||e.key==='ArrowDown')step(v,1);else if(e.key==='ArrowLeft'||e.key==='ArrowUp')step(v,-1);
  else if(/^[1-9]$/.test(e.key)&&META.series[+e.key-1])setSeries(v,+e.key-1);
  else if(e.key==='r'||e.key==='R')$('#reset').click();else if(e.key==='i'||e.key==='I')$('#inv').click();
- else if(e.key==='Tab'&&layout===2){active=1-active;renderAll()}else if(e.key==='Escape')help.style.display='none';else return;e.preventDefault()});
+ else if(e.key==='Tab'&&layout===2){active=1-active;renderAll()}else if(e.key==='Escape'){help.style.display='none';dl.style.display='none'}else return;e.preventDefault()});
 addEventListener('resize',renderAll);
 
 fetch('data/meta.json').then(r=>r.json()).then(m=>{META=m;
