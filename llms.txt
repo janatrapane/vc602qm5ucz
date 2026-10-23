@@ -2,6 +2,7 @@
 
 Pirmreizēja traumatiska mugurēja glenohumerāla subluksācija, 18 g. kalnu slēpotājs.
 
+- [Jautājumi ārstam 24.10.](docs/jautajumi.md)
 - [MR slēdziens EN+LV](docs/sledziens.md)
 - [Saite un fizioterapija 1.-3. nedēļā (kopsavilkums ārstam un fizioterapeitam)](docs/plans.md)
 - [Padziļinātā izpēte: klasifikācija, risks, atgriešanās sportā](docs/izpete-trauma.md)
